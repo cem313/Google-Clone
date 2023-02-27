@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 22px;
+
+}
+
+.left-section div {
+  padding: 0px 5px;
+}
+
+
+.store {
+  margin-left: 10px;
+}
+
+.store:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.about:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.gmail {
+  margin-right: 5px;
+}
+
+.gmail:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.images {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+}
+
+.images:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.profile {
+  padding-left: 10px;
+}
+
+.profile .tooltip {
+  font-size: 10px;
+  background-color: gray;
+  padding: 3px;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.profile:hover .tooltip {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90px;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 110px);
+
+}
+
+.logo {
+  /* margin-top: 25px;
+  margin-bottom: -10px; */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-color: aliceblue;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+
+
+.search {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+.search-icons {
+  display: flex;
+  flex-direction: row;
+  height: 22px;
+}
+
+/* .mag-glass {
+  margin-left: 5px;
+}
+
+.mic {
+  margin-left: 480px;
+}
+
+.cam {
+  margin-left: 10px;
+} */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 180px; */
+}
+
+.search-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.lucky-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+}
+
+.lucky-button:hover {
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: rgb(240, 236, 236);
+  height: 40px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+
+.ads:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.biz {
+  margin-left: 20px;
+}
+
+.biz:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.how {
+  margin-left: 20px;
+}
+
+.how:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: row;
+  margin-right: 70px;
+}
+
+.carbon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  margin-right: 35px;
+}
+
+.privacy {
+  margin-right: 20px;
+}
+
+.privacy:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terms {
+  margin-right: 20px;
+}
+
+.terms:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.settings:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.leaf {
+  height: 20px;
+  padding-right: 3px;
+}
